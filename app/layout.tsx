@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "LuxeProperty - Find Your Dream Home",
+  title: "HydEstate - Find Your Dream Home",
   description: "Discover premium properties with AI-powered price predictions and interactive maps",
   generator: "v0.app",
   icons: {

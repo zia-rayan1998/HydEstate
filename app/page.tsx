@@ -74,7 +74,7 @@ export default function Home() {
               <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center">
                 <MapPin className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold text-foreground">LuxeProperty</span>
+              <span className="text-xl font-bold text-foreground">HydEstate</span>
             </div>
             <div className="flex items-center gap-4">
               <Link href="/map">
@@ -85,6 +85,11 @@ export default function Home() {
               <Link href="/property/create">
                 <Button size="sm" className="bg-gradient-to-r from-blue-500 to-cyan-500 hover:opacity-90">
                   List Property
+                </Button>
+              </Link>
+              <Link href="/property/create">
+                <Button size="sm" className="bg-gradient-to-r from-blue-500 to-cyan-500 hover:opacity-90">
+                  prediction
                 </Button>
               </Link>
               {isLoggedIn ? (
