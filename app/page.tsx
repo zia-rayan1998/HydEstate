@@ -87,7 +87,7 @@ export default function Home() {
                   List Property
                 </Button>
               </Link>
-              <Link href="/property/create">
+              <Link href="/property/predict">
                 <Button size="sm" className="bg-gradient-to-r from-blue-500 to-cyan-500 hover:opacity-90">
                   prediction
                 </Button>
